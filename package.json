@@ -1,19 +1,21 @@
 {
-  "name": "nyt-react-search",
+  "name": "mern",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
+    "server": "node server.js",
+    "client": "cd client && npm run start",
+    "start": "./node_modules/.bin/concurrently \"./node_modules/.bin/nodemon\" \"npm run client\"",
+    "build": "cd client && npm run build",
+    "deploy": "yarn build && git add . && git commit -m \"Building for production\" && git push heroku master",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/elioye27/NYT-React-Search.git"
-  },
-  "author": "elijah",
+  "author": "Elijah",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/elioye27/NYT-React-Search/issues"
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0"
   },
   "dependencies": {
     "bluebird": "^3.5.0",
