@@ -1,0 +1,24 @@
+{
+  "name": "nyt-react-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elioye27/NYT-React-Search.git"
+  },
+  "author": "elijah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elioye27/NYT-React-Search/issues"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.10"
+  }
+}
