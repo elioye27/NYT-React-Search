@@ -4,7 +4,7 @@ import axios from "axios";
 const api = {
   // Query NYT API
   searchNYT: function(topic, startYear, endYear) {
-    const authKey = "b9f91d369ff59547cd47b931d8cbc56b:0:74623931";
+    const authKey = "77477d08cc0a4b84b344710a4dccb09d";
     const queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" +
     authKey + "&q=" + topic + "&begin_date=" + startYear + "0101&end_date=" + endYear + "0101";
     return axios.get(queryURL);

@@ -3,3 +3,15 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.jumbotron {
+  background-color: rgb(15, 20, 82);
+  color: whitesmoke;
+  font: 4.5rem bold;
+  text-align: center;
+}
+
+.btn {
+  background-color: rgb(15, 20, 82);
+  color: whitesmoke;
+}
