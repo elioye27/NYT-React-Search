@@ -108,7 +108,7 @@ class Main extends Component {
         <div className="container">
           {/* Jumbotron */}
           <div className="jumbotron">
-            <h1 className="fa fa-newspaper-o" aria-hidden="true"><strong>New York Times Search</strong></h1>
+            <h1 className="fa fa-newspaper-o" aria-hidden="true"><strong> New York Times Search</strong></h1>
           </div>
           {/* Search Form and Results Section */}
           <Search
@@ -141,8 +141,7 @@ class Main extends Component {
           <footer>
             <hr />
             <p className="pull-right">
-              <i className="fa fa-github" aria-hidden="true"></i>
-              Proudly built using React.js
+              <a href ="https://github.com/elioye27/NYT-React-Search" alt="github"> <i className="fa fa-github" aria-hidden="true"></i> App built with React.js</a>
             </p>
           </footer>
         </div>
