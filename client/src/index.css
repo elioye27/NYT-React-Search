@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  
+  /* Set "my-sec-counter" to 0 */
+  counter-reset: my-sec-counter;
 }
 
 .container {
@@ -33,3 +36,18 @@ form {
   color: rgb(29, 28, 28);
   margin: 15px -20px -20px;
 }
+
+h4:before {
+  background-color: rgb(15, 20, 82);
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+
+  /* Increment "my-sec-counter" by 1 */
+  counter-increment: my-sec-counter;
+  content: counter(my-sec-counter);
+}
+
