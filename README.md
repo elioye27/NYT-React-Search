@@ -26,6 +26,6 @@ On the frontend, the app uses ReactJS for rendering components, axios for intern
 
 ## Screenshots
 
-![alt text]("https://raw.githubusercontent.com/elioye27/NYT-React-Search/master/img1.JPG")
+![alt text](https://raw.githubusercontent.com/elioye27/NYT-React-Search/master/img1.JPG)
 
-![alt text]("https://raw.githubusercontent.com/elioye27/NYT-React-Search/master/img2.JPG")
+![alt text](https://raw.githubusercontent.com/elioye27/NYT-React-Search/master/img2.JPG)
