@@ -12,12 +12,15 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+mongoose.connect('mongodb://elijahreactr:12345@ds125618.mlab.com:25618/elijahreact');
+
 // Serve up static assets if in production (running on Heroku)
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-} else {
-  app.use(express.static(__dirname + "/client/public"));
-}
+// if (process.env.NODE_ENV === "production") {
+//   // app.use(express.static("client/build"));
+  
+// } else {
+//   // app.use(express.static(__dirname + "/client/public"));
+// }
 
 // enable CORS, use:
 // https://enable-cors.org/server_expressjs.html

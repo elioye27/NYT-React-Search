@@ -26,6 +26,6 @@ On the frontend, the app uses ReactJS for rendering components, axios for intern
 
 ## Screenshots
 
-![alt text](img1.jpg)
+![alt text](./img1.jpg)
 
-![alt text](img2.jpg)
+![alt text](./img2.jpg)
